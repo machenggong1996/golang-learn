@@ -70,7 +70,7 @@ func syncProducer(address []string) {
 			}
 			dishs = append(dishs, dish)
 		}
-		jb, _ := json.Marshal(dishs)
+		jb, _ := json.Marshal(&dishs)
 		js := string(jb)
 		m := fmt.Sprintf(message, js)
 		message_list = append(message_list, m)

@@ -5,5 +5,5 @@ go 1.15
 require (
 	github.com/Shopify/sarama v1.27.2
 	github.com/hashicorp/go-uuid v1.0.2
-	github.com/tidwall/gjson v1.6.1
+	github.com/pkg/errors v0.9.1
 )
