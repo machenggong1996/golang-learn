@@ -78,5 +78,4 @@ func main() {
 		item := heap.Pop(h).(Student)
 		fmt.Printf("student name %s,score %d\n", item.name, item.score)
 	}
-
 }
